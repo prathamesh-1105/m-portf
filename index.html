@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mahek Lingwat — Product Designer</title>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Homemade+Apple&family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20260923b">
+<script src="analytics.js?v=20260923c" defer></script>
+</head>
+<body data-page="home">
+<div class="stage">
+<main class="page">
+
+  <!-- ===== Procreate section (bg + grid painted first, like the design) ===== -->
+  <section class="procreate">
+    <img class="procreate-flower" src="assets/procreate-flower.png" alt="">
+    <h2 class="procreate-heading">a sneak peek at my procreate</h2>
+    <div class="procreate-art-1"><img src="assets/procreate-art-1.png" alt="Procreate artwork"></div>
+    <img class="procreate-art-2" src="assets/procreate-art-2.png" alt="Procreate artwork">
+    <div class="procreate-art-3-wrap"><div class="procreate-art-3"><img src="assets/procreate-art-3.png" alt="Procreate artwork"></div></div>
+    <img class="procreate-art-4" src="assets/procreate-art-4.png" alt="Procreate artwork">
+    <p class="procreate-quote hand">&ldquo;Not everything here is portfolio-grade, and it doesn't need to be. Procreate is my brain's decluttering tool &mdash; a space with zero stakes and full permission to play. Because if it's made on a canvas, it's art. Simple as that.&rdquo;</p>
+  </section>
+
+  <!-- ===== About section ===== -->
+  <section class="about">
+    <div class="about-row">
+      <h2 class="about-heading">A little<br>about me</h2>
+      <div class="about-text">
+        <p>I&rsquo;m obsessed with one thing: <strong>making things make sense.</strong></p>
+        <p class="pt16">I explore the space where <strong>design, technology and people</strong> meet &mdash; turning complex ideas into simple, intuitive and meaningful digital experiences.</p>
+        <p class="pt16">I enjoy taking messy problems, asking the questions others might overlook, and turning them into products that are not just functional, but actually enjoyable to use.</p>
+        <p class="about-note hand">I design with people in mind.<br>I build with technology.<br>And I&rsquo;m always curious about what comes next.</p>
+        <span class="corner corner-tr"></span>
+        <span class="corner corner-bl"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Hero ===== -->
+  <img class="hero-bg" src="assets/hero-bg.png" alt="">
+  <img class="hero-photo-1" src="assets/hero-photo-1.png" alt="Portrait">
+  <p class="hero-tagline">Tech-driven. Design-obsessed.</p>
+  <div class="hero-photo-2-wrap rot-wrap"><img class="hero-photo-2" src="assets/hero-photo-2.png" alt=""></div>
+  <div class="hero-photo-3-wrap rot-wrap"><img class="hero-photo-3" src="assets/hero-photo-3.png" alt=""></div>
+  <img class="hero-photo-4" src="assets/hero-photo-4.png" alt="">
+  <div class="hero-photo-5-wrap"><img class="hero-photo-5" src="assets/hero-photo-5.png" alt=""></div>
+  <div class="hero-portrait"><img src="assets/mahek-portrait.jpg" alt="Mahek Lingwat"></div>
+  <img class="hero-photo-6" src="assets/hero-photo-6.png" alt="">
+  <div class="hero-photo-7-wrap rot-wrap"><img class="hero-photo-7" src="assets/hero-photo-2.png" alt=""></div>
+
+  <!-- ===== Projects section (macOS desktop theme) ===== -->
+  <span id="work" class="section-anchor" style="top:1694px" aria-hidden="true"></span><!-- target of the case studies' "back to the folder" (./#work) -->
+  <img class="projects-bg" src="assets/projects-bg.jpg" alt="">
+  <div class="projects-heading">
+    <h2 class="projects-title">projects</h2>
+    <p class="projects-script hand">things i&rsquo;ve designed</p>
+  </div>
+  <img class="pj-calendar" src="assets/projects-calendar.png" alt="Calendar widget: Monday 22, Apple Keynote, online, 10:00 to 11:30">
+  <div class="pj-folder">
+    <img class="pj-folder-icon" src="assets/projects-folder.png" alt="Folder">
+    <img class="pj-folder-clip" src="assets/projects-clip.png" alt="">
+    <p class="pj-folder-caption">drafts<img src="assets/star.png" alt=""></p>
+  </div>
+  <div class="pj-survival">
+    <img src="assets/projects-survival.png" alt="">
+    <p>survival<span class="hand">.</span>jpg</p>
+  </div>
+  <div class="pj-window" id="pj-window">
+    <div class="pj-bar">
+      <span class="pj-lights" aria-hidden="true"><i></i><i></i><i></i></span>
+      <button class="pj-nav pj-prev" type="button" aria-label="Previous project" data-cursor="cta" data-cursor-label="prev"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13 8H3.5M7.5 3.5 3 8l4.5 4.5"/></svg></button>
+      <button class="pj-nav pj-next" type="button" aria-label="Next project" data-cursor="cta" data-cursor-label="next"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9.5M8.5 3.5 13 8l-4.5 4.5"/></svg></button>
+      <div class="pj-address">
+        <p class="pj-url" aria-hidden="true">flebo.in</p>
+        <div class="pj-dots" aria-hidden="true"><span class="on"></span><span></span><span></span></div>
+        <svg class="pj-search" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="4.3"/><path d="m10 10 3.6 3.6"/></svg>
+      </div>
+      <button class="pj-nav pj-play" type="button" aria-label="Pause video" data-cursor="cta" data-cursor-label="pause">
+        <svg class="pj-icon-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 3.5v9M10.5 3.5v9"/></svg>
+        <svg class="pj-icon-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3.2v9.6L12.6 8z"/></svg>
+      </button>
+    </div>
+    <!-- Each project's screen recording fills the viewport; the window moves on when it ends -->
+    <div class="pj-slides">
+      <a class="pj-slide is-active" href="flebo.html" data-url="flebo.in" data-cursor="cta" data-cursor-label="view">
+        <div class="pj-view">
+          <video class="pj-video" src="assets/projects/flebo.mp4?v=2" poster="assets/projects/flebo-poster.jpg?v=2" muted playsinline preload="none" aria-label="Screen recording: booking a lab test on the redesigned Flebo site"></video>
+        </div>
+        <div class="pj-meta">
+          <h3>Re-design Flebo</h3>
+          <div class="pj-tags"><span>UX Designer</span><span>Figma, Claude</span><span>2026</span></div>
+        </div>
+      </a>
+      <a class="pj-slide" href="menteiz.html" data-url="menteizaviation.com" data-cursor="cta" data-cursor-label="view">
+        <div class="pj-view">
+          <video class="pj-video" src="assets/projects/menteiz.mp4?v=2" poster="assets/projects/menteiz-poster.jpg?v=2" muted playsinline preload="none" aria-label="Screen recording: scrolling the redesigned Menteiz Aviation site"></video>
+        </div>
+        <div class="pj-meta">
+          <h3>Re-design Menteiz Aviation</h3>
+          <div class="pj-tags"><span>UX/UI Designer</span><span>Claude Code, Figma</span><span>2026</span></div>
+        </div>
+      </a>
+      <a class="pj-slide" href="kargo360.html" data-url="kargo360 &middot; a2a + d2d" data-plays="2" data-cursor="cta" data-cursor-label="view">
+        <div class="pj-view pj-view-device">
+          <img class="pj-backdrop" src="assets/projects-kargo.jpg" alt="">
+          <div class="pj-phone">
+            <video class="pj-video" src="assets/projects/kargo.mp4?v=2" poster="assets/projects/kargo-poster.jpg?v=2" muted playsinline preload="none" aria-label="Screen recording: scrolling the Kargo360 home screen on an iPhone"></video>
+          </div>
+        </div>
+        <div class="pj-meta">
+          <h3>Re-design Kargo360 App</h3>
+          <div class="pj-tags"><span>UX Research, IA, UI</span><span>Figma</span><span>2025</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <img class="pj-dock" src="assets/projects-dock.png" alt="macOS dock">
+  <button class="pj-dock-hot" type="button" style="left:602px" data-slide="0" aria-label="Show Flebo" data-cursor="cta" data-cursor-label="flebo"></button>
+  <button class="pj-dock-hot" type="button" style="left:679px" data-slide="1" aria-label="Show Menteiz Aviation" data-cursor="cta" data-cursor-label="menteiz"></button>
+  <button class="pj-dock-hot" type="button" style="left:759px" data-slide="2" aria-label="Show Kargo360" data-cursor="cta" data-cursor-label="kargo360"></button>
+  <span class="pj-dock-dot" aria-hidden="true"></span>
+  <img class="pj-dog" src="assets/projects-dog.png" alt="">
+
+  <!-- ===== Hero name + nav (painted above collage) ===== -->
+  <div class="hero-name">
+    <p class="hero-script hand">mahek lingwat</p>
+    <span class="hero-role">Product Designer</span>
+  </div>
+  <nav class="top-nav">
+    <a class="nav-logo hand" href="#top" data-scroll-to="top">mk</a>
+    <div class="nav-right">
+      <div class="nav-links"><a href="#work" data-scroll-to="work">Work</a><a href="#about" data-scroll-to="about">About</a><a href="#contact" data-scroll-to="contact">Contact</a></div>
+      <a class="nav-cta" href="#contact" data-scroll-to="contact" data-cursor="cta" data-cursor-label="chat">Let&rsquo;s chat <img src="assets/arrow-right.svg" alt=""></a>
+    </div>
+  </nav>
+
+  <!-- ===== Monthly recap / side quests ===== -->
+  <div class="recap-side-quests">
+    <p class="hand">side quests</p>
+    <img src="assets/star.png" alt="">
+  </div>
+  <h2 class="recap-monthly">monthly</h2>
+  <h2 class="recap-recap">recap</h2>
+  <div class="selection-box"></div>
+  <span class="handle" style="left:497px;top:3471.32px"></span>
+  <span class="handle" style="left:713.94px;top:3471.32px"></span>
+  <span class="handle" style="left:930.87px;top:3471.32px"></span>
+  <span class="handle" style="left:497px;top:3543.64px"></span>
+  <span class="handle" style="left:930.87px;top:3543.64px"></span>
+  <span class="handle" style="left:497px;top:3617.15px"></span>
+  <span class="handle" style="left:713.94px;top:3617.15px"></span>
+  <span class="handle" style="left:930.87px;top:3617.15px"></span>
+
+  <img class="recap-photo-1" src="assets/recap-photo-1.png" alt="">
+  <div class="recap-caption-1 recap-caption"><span>late night experiments</span><img src="assets/star.png" alt=""></div>
+
+  <div class="recap-col recap-col-2">
+    <img class="recap-photo-2" src="assets/recap-photo-2.png" alt="">
+    <div class="recap-caption"><span>drafts</span><img src="assets/star.png" alt=""></div>
+  </div>
+
+  <div class="recap-col recap-col-3">
+    <img class="recap-photo-3" src="assets/recap-photo-3.png" alt="">
+    <div class="recap-caption"><span>My Creative Dump.</span><img src="assets/star.png" alt=""></div>
+  </div>
+
+  <img class="cursor-icon" src="assets/cursor.svg" alt="">
+
+  <div class="recap-col recap-ramen">
+    <img class="recap-frame frame-yellow" src="assets/recap-ramen.png" alt="Ramen">
+    <p class="recap-filename">favourite <span class="hand">ramen.</span>jpg</p>
+  </div>
+  <div class="recap-col recap-survival">
+    <img class="recap-frame" src="assets/recap-survival.png" alt="">
+    <p class="recap-filename">survival<span class="hand">.</span>jpg</p>
+  </div>
+  <div class="recap-col recap-mountains">
+    <img class="recap-frame" src="assets/recap-mountains.png" alt="Mountains">
+    <p class="recap-filename filename-lg">mountains.jpg</p>
+  </div>
+  <div class="recap-photo-4-wrap rot-wrap"><img class="recap-photo-4" src="assets/recap-photo-4.png" alt=""></div>
+
+  <!-- ===== Life in a cart ===== -->
+  <div class="cart-bg">
+    <img class="cart-bg-blur" src="assets/cart-bg.png" alt="">
+    <img class="cart-bg-sharp" src="assets/cart-bg.png" alt="">
+  </div>
+  <div class="cart-collage">
+    <img class="cart-main" src="assets/cart-collage.png" alt="Shopping cart collage">
+    <img class="cart-item cart-item-01" src="assets/cart-item-01.png" alt="">
+    <img class="cart-item cart-item-02" src="assets/cart-item-02.png" alt="">
+    <img class="cart-item cart-item-03" src="assets/cart-item-03.png" alt="">
+    <div class="cart-item-04-wrap rot-wrap"><img class="cart-item-04" src="assets/cart-item-04.png" alt=""></div>
+    <img class="cart-item cart-item-05" src="assets/cart-item-05.png" alt="">
+    <img class="cart-item cart-item-06" src="assets/cart-item-06.png" alt="">
+    <div class="cart-item-07-wrap rot-wrap"><img class="cart-item-07" src="assets/cart-item-07.png" alt=""></div>
+    <img class="cart-item cart-item-08" src="assets/cart-item-08.png" alt="">
+    <img class="cart-item cart-item-09" src="assets/cart-item-09.png" alt="">
+    <img class="cart-item cart-item-10" src="assets/cart-item-10.png" alt="">
+    <img class="cart-item cart-item-11" src="assets/cart-item-11.png" alt="">
+  </div>
+  <p class="cart-title">life in a <span class="hand">cart</span></p>
+
+  <!-- ===== Let's talk + footer (pink hill) ===== -->
+  <section class="talk2">
+    <img class="t2-art" src="assets/talk-hill.jpg" alt="Dog, cat and duck in sunglasses lounging on a grassy hill">
+    <div class="t2-head">
+      <h2>let&rsquo;s talk</h2>
+      <div class="t2-sub hand">
+        <p>connection. presence: join the conversation</p>
+        <p>there is a place for every idea</p>
+      </div>
+    </div>
+    <a class="t2-pill t2-resume" href="assets/Mahek_Lingwat_Resume.pdf" target="_blank" rel="noopener" data-cursor="cta" data-cursor-label="cv">Resume</a>
+    <a class="t2-pill t2-email" href="mailto:maheklingwat@gmail.com" data-cursor="cta" data-cursor-label="say hi">maheklingwat@gmail.com</a>
+    <a class="t2-linkedin" href="https://www.linkedin.com/in/mahek-lingwat-937843317/" target="_blank" rel="noopener" data-cursor="cta" data-cursor-label="connect"><img src="assets/linkedin.png" alt="LinkedIn"></a>
+    <p class="t2-chai hand">made with too much chai</p>
+  </section>
+
+</main>
+</div>
+
+<div id="cursor" aria-hidden="true">
+  <div class="c-zoom">
+    <svg class="c-arrow" width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M38.016 23.382L13.26 6.5L15.5 36.382L22.66 28.784L29.66 40.91L34.856 37.91L27.856 25.784L38.016 23.384V23.382Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div class="c-ring"></div>
+    <div class="c-badge"><span></span></div>
+    <img class="c-star" src="assets/star.png" alt="">
+  </div>
+</div>
+
+<script>
+  const page = document.querySelector('.page');
+  const stage = document.querySelector('.stage');
+  function fit() {
+    const w = document.documentElement.clientWidth;
+    const s = w / 1440;
+    page.style.transform = `scale(${s})`;
+    stage.style.height = `${8212 * s}px`;
+  }
+  addEventListener('resize', fit);
+  fit();
+
+  // Custom morphing cursor (fine pointers only)
+  (function () {
+    if (!matchMedia('(pointer: fine)').matches) return;
+    const c = document.getElementById('cursor');
+    const badgeText = c.querySelector('.c-badge span');
+    document.documentElement.classList.add('has-custom-cursor');
+
+    const PHOTOS = '.rot-wrap,.hero-photo-1,.hero-photo-4,.hero-photo-5-wrap,.hero-portrait,.hero-photo-6,.pj-folder,.pj-survival,.pj-dog,.recap-photo-1,.recap-col,.cart-collage img,.procreate-art-1,.procreate-art-2,.procreate-art-4,.t2-art';
+    const HEADINGS = '.hero-tagline,.hero-name,.about-heading,.projects-heading,.recap-monthly,.recap-recap,.recap-side-quests,.procreate-heading,.cart-title,.t2-head';
+
+    let tx = -100, ty = -100, x = tx, y = ty, shown = false;
+
+    document.addEventListener('mousemove', (e) => {
+      tx = e.clientX; ty = e.clientY;
+      if (!shown) { shown = true; x = tx; y = ty; c.style.opacity = 1; }
+      const t = e.target instanceof Element ? e.target : null;
+      let variant = 'default';
+      if (t) {
+        const dc = t.closest('[data-cursor]');
+        if (dc) {
+          variant = dc.dataset.cursor;
+          if (dc.dataset.cursorLabel) badgeText.textContent = dc.dataset.cursorLabel;
+        } else if (t.closest('a,button,.tab')) {
+          variant = 'link';
+        } else if (t.closest(PHOTOS)) {
+          variant = 'photo';
+        } else if (t.closest(HEADINGS)) {
+          variant = 'heading';
+        }
+      }
+      if (c.dataset.variant !== variant) c.dataset.variant = variant;
+    });
+      document.addEventListener('mousedown', () => c.classList.add('is-down'));
+    document.addEventListener('mouseup', () => c.classList.remove('is-down'));
+    document.documentElement.addEventListener('mouseleave', () => { c.style.opacity = 0; shown = false; });
+
+    (function loop() {
+      x += (tx - x) * 0.35;
+      y += (ty - y) * 0.35;
+      c.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+      requestAnimationFrame(loop);
+    })();
+  })();
+
+  // Ambient entry animations, choreographed per section from each element's
+  // final position and its relation to the other elements around it.
+  (function () {
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const io = new IntersectionObserver((entries) => {
+      for (const en of entries) {
+        if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+      }
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+
+    // Tossed items (cart section) fly on WAAPI arcs instead of CSS transitions
+    const tossQueue = [];
+    const io2 = new IntersectionObserver((entries) => {
+      for (const en of entries) {
+        if (!en.isIntersecting) continue;
+        io2.unobserve(en.target);
+        const t = tossQueue.find((q) => q.el === en.target);
+        const anim = en.target.animate(t.frames, { duration: t.duration || 680, delay: t.delay, easing: 'linear', fill: 'both' });
+        anim.finished.then(() => { en.target.style.opacity = ''; if (t.onLand) t.onLand(); }).catch(() => {});
+      }
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+
+    const pr = document.querySelector('.page').getBoundingClientRect();
+    const s = pr.width / 1440;
+
+    // clip-path-hidden elements report zero visible area to IntersectionObserver,
+    // so wipe reveals observe an invisible same-geometry sentinel instead
+    const wipeQueue = [];
+    const io3 = new IntersectionObserver((entries) => {
+      for (const en of entries) {
+        if (!en.isIntersecting) continue;
+        io3.unobserve(en.target);
+        wipeQueue.find((q) => q.sent === en.target).el.classList.add('in');
+      }
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    const addWipe = (sel, dir, delay, dur) => {
+      const el = document.querySelector(sel);
+      el.classList.add('rv-wipe', dir);
+      el.style.transitionDelay = delay + 'ms';
+      if (dur) el.style.transitionDuration = dur + 's';
+      const r = el.getBoundingClientRect();
+      const sent = document.createElement('div');
+      sent.style.cssText = 'position:absolute;visibility:hidden;pointer-events:none;'
+        + `left:${((r.left - pr.left) / s).toFixed(1)}px;top:${((r.top - pr.top) / s).toFixed(1)}px;`
+        + `width:${(r.width / s).toFixed(1)}px;height:${(r.height / s).toFixed(1)}px;`;
+      document.querySelector('.page').appendChild(sent);
+      wipeQueue.push({ sent, el });
+    };
+    const pos = (el) => {
+      const r = el.getBoundingClientRect();
+      return { cx: ((r.left + r.right) / 2 - pr.left) / s, cy: ((r.top + r.bottom) / 2 - pr.top) / s };
+    };
+    const apply = (el, o) => {
+      el.classList.add('rv');
+      if (o.dx) el.style.setProperty('--rvx', o.dx.toFixed(1) + 'px');
+      if (o.dy !== undefined) el.style.setProperty('--rvy', o.dy.toFixed(1) + 'px');
+      if (o.rot) el.style.setProperty('--rvr', o.rot.toFixed(1) + 'deg');
+      if (o.scale) el.style.setProperty('--rvs', o.scale);
+      if (o.dur) el.style.setProperty('--rvd', o.dur + 's');
+      el.style.transitionDelay = Math.round(o.delay || 0) + 'ms';
+      queue.push(el);
+    };
+    const queue = [];
+    const each = (sel, fn) => document.querySelectorAll(sel).forEach((el, i) => apply(el, fn(el, i, pos(el)) || {}));
+
+    // Hero: nav drops in, name/tagline rise, then the collage fans out from the framed portrait
+    each('.top-nav', () => ({ dy: -26, dur: 0.7 }));
+    each('.hero-name', () => ({ dy: 22, delay: 140 }));
+    each('.hero-tagline', () => ({ dx: -60, dy: 0, delay: 280 }));
+    const HERO_C = { x: 719.5, y: 916.5 }; // portrait center
+    each('.hero-portrait', () => ({ dy: 26, scale: 0.85, delay: 380 }));
+    each('.hero-photo-1,.hero-photo-2-wrap,.hero-photo-3-wrap,.hero-photo-4,.hero-photo-5-wrap,.hero-photo-6,.hero-photo-7-wrap', (el, i, p) => {
+      const fx = p.cx - HERO_C.x, fy = p.cy - HERO_C.y;
+      return { dx: -fx * 0.25, dy: -fy * 0.25 - 8, scale: 0.82, rot: fx < 0 ? -7 : 7, delay: 480 + Math.hypot(fx, fy) * 0.55 };
+    });
+
+    // About: heading slides in from the left; the corner brackets zoom out from the
+    // center of the text block to their corners, opening the frame to reveal the text
+    each('.about-heading', () => ({ dx: -70, dy: 0 }));
+    each('.about-text p', (el, i) => ({ dy: 0, delay: 500 + i * 120, dur: 0.9 }));
+    each('.corner-tr', () => ({ dx: -255.8, dy: 133.5, delay: 180, dur: 0.75 }));
+    each('.corner-bl', () => ({ dx: 255.7, dy: -133.5, delay: 180, dur: 0.75 }));
+
+    // Projects (macOS desktop): title rises, script signs over it, browser window
+    // opens, dock slides up from the bottom, desktop items pop into place
+    each('.projects-title', () => ({ dy: 36 }));
+    each('.projects-script', () => ({ dy: -14, delay: 280 }));
+    each('.pj-window', () => ({ dy: 70, scale: 0.94, delay: 180 }));
+    each('.pj-calendar', () => ({ dx: -60, dy: 0, delay: 260 }));
+    each('.pj-folder', () => ({ dy: -24, delay: 380 }));
+    each('.pj-survival', () => ({ dx: 50, dy: 0, delay: 480 }));
+    each('.pj-dock', () => ({ dy: 90, delay: 540 }));
+    each('.pj-dog', () => ({ dx: 80, dy: 0, delay: 680 }));
+
+    // Monthly recap: heading rises, polaroids fly out from behind it to their spots,
+    // then the cursor drags the selection box across "recap" (growing from its
+    // top-left corner) while the handles tick in, starting 20% into the drag
+    each('.recap-side-quests', () => ({ dy: 24 }));
+    each('.recap-monthly', () => ({ dy: 34, delay: 100 }));
+    each('.recap-recap', () => ({ dy: 34, delay: 200 }));
+    const RECAP_C = { x: 720, y: 3460 }; // center of "monthly recap"
+    each('.recap-photo-1,.recap-caption-1,.recap-col,.recap-photo-4-wrap', (el, i, p) => ({
+      dx: RECAP_C.x - p.cx, dy: RECAP_C.y - p.cy, scale: 0.35, delay: 350 + i * 110, dur: 0.9
+    }));
+    const DRAG_AT = 1150, DRAG_MS = 735; // drag starts after the photos have flown out
+    each('.selection-box', () => ({ dy: 0, scale: 0.02, delay: DRAG_AT }));
+    each('.cursor-icon', () => ({ dy: 0 })); // path + timing live in the cursor-drag keyframes
+    each('.handle', (el, i) => ({ dy: 0, scale: 0.3, delay: DRAG_AT + DRAG_MS * 0.2 + i * 45, dur: 0.35 }));
+
+    // Life in a cart: items are tossed in along arcs from their nearer side,
+    // spinning as they fly; the basket shakes a little each time one lands
+    each('.cart-main', () => ({ dy: 50, scale: 0.94 }));
+    each('.cart-title', () => ({ dx: 60, dy: 0, delay: 400 }));
+    {
+      const items = [...document.querySelectorAll('.cart-collage > img:not(.cart-main), .cart-collage > .rot-wrap')];
+      const byDepth = [...items].sort((a, b) => pos(b).cy - pos(a).cy); // bottom of the cart fills first
+      for (const el of items) {
+        const p = pos(el);
+        const side = p.cx < 720 ? -1 : 1;
+        const dx = side * (220 + Math.random() * 120);
+        const rise = 140 + Math.random() * 80;    // arc apex above the landing spot
+        const rot = -side * (14 + Math.random() * 10);
+        const frames = [];
+        for (let k = 0; k <= 16; k++) {
+          const s = k / 16;
+          frames.push({
+            offset: s,
+            opacity: Math.min(1, s / 0.12),
+            translate: `${(dx * (1 - s)).toFixed(1)}px ${(-(60 * (1 - s) + rise * Math.sin(Math.PI * s))).toFixed(1)}px`,
+            rotate: `${(rot * (1 - s)).toFixed(1)}deg`,
+            scale: (0.9 + 0.1 * s).toFixed(3)
+          });
+        }
+        el.style.opacity = '0';
+        tossQueue.push({
+          el, frames, delay: 150 + byDepth.indexOf(el) * 130,
+          onLand: () => document.querySelector('.cart-main').animate(  // the basket takes the hit
+            [{ rotate: '0deg' }, { rotate: '-1.3deg', offset: 0.35 }, { rotate: '0.8deg', offset: 0.7 }, { rotate: '0deg' }],
+            { duration: 260, easing: 'ease-out', composite: 'add' }
+          )
+        });
+      }
+    }
+
+    // Procreate: heading rises; artworks reveal with directional brush-stroke
+    // wipes (direction matches each canvas's side of the spread); quote fades last
+    each('.procreate-heading', () => ({ dy: 30 }));
+    each('.procreate-quote', () => ({ dy: 0, delay: 900, dur: 1.2 }));
+    addWipe('.procreate-art-3-wrap', 'wipe-down', 150);
+    addWipe('.procreate-art-1', 'wipe-left', 350);
+    addWipe('.procreate-art-4', 'wipe-right', 550);
+    addWipe('.procreate-art-2', 'wipe-left', 750);
+
+    // Let's talk: heading rises, scene settles in, pills get tossed on with a spin,
+    // the LinkedIn sticker bounces in like a basketball, and the chai line
+    // writes itself out over the grass
+    each('.t2-art', () => ({ dy: 26, dur: 1 }));
+    each('.t2-head', () => ({ dy: 34, delay: 150 }));
+    each('.t2-resume', () => ({ dy: -80, rot: -14, delay: 460 }));
+    each('.t2-email', () => ({ dy: -80, rot: 12, delay: 620 }));
+    {
+      const ball = document.querySelector('.t2-linkedin');
+      ball.style.opacity = '0';
+      tossQueue.push({
+        el: ball, duration: 1400, delay: 700, frames: [
+          { offset: 0, opacity: 0, translate: '200px -560px', rotate: '240deg', easing: 'ease-in' },
+          { offset: 0.05, opacity: 1 },
+          { offset: 0.35, translate: '80px 0px', rotate: '130deg', scale: '1.08 0.9', easing: 'ease-out' },
+          { offset: 0.38, scale: '1 1' },
+          { offset: 0.55, translate: '36px -150px', rotate: '60deg', easing: 'ease-in' },
+          { offset: 0.72, translate: '0px 0px', rotate: '0deg', scale: '1.06 0.94', easing: 'ease-out' },
+          { offset: 0.75, scale: '1 1' },
+          { offset: 0.85, translate: '0px -48px', easing: 'ease-in' },
+          { offset: 0.95, translate: '0px 0px', scale: '1.04 0.96' },
+          { offset: 1, opacity: 1, translate: '0px 0px', rotate: '0deg', scale: '1 1' }
+        ]
+      });
+    }
+    addWipe('.t2-chai', 'wipe-right', 300, 1.6);
+
+    // Start observing only after the hidden state has painted once, so on-load
+    // entrances actually transition. Elements already above the viewport
+    // (scroll restoration) reveal instantly instead of animating late.
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      for (const el of queue) {
+        if (el.getBoundingClientRect().bottom < 0) el.classList.add('in');
+        else io.observe(el);
+      }
+      for (const t of tossQueue) {
+        if (t.el.getBoundingClientRect().bottom < 0) t.el.style.opacity = '';
+        else io2.observe(t.el);
+      }
+      for (const w of wipeQueue) {
+        if (w.sent.getBoundingClientRect().bottom < 0) w.el.classList.add('in');
+        else io3.observe(w.sent);
+      }
+    }));
+  })();
+
+  // Projects window: three case studies behind the browser chrome's back/forward arrows.
+  // The active project's screen recording plays while the window is on screen and
+  // the window moves on when it ends (data-plays: how many times a short clip runs
+  // first). The active dot fills with playback progress. Hovering with a mouse
+  // keeps the current project looping; reduced-motion starts paused.
+  (function () {
+    const win = document.getElementById('pj-window');
+    const slides = [...win.querySelectorAll('.pj-slide')];
+    const videos = slides.map((s) => s.querySelector('video'));
+    videos.forEach((v) => { v.defaultPlaybackRate = v.playbackRate = 1.25; });   // recordings play a touch faster than real time
+    const dots = [...win.querySelectorAll('.pj-dots span')];
+    const url = win.querySelector('.pj-url');
+    const toggle = win.querySelector('.pj-play');
+    const hots = [...document.querySelectorAll('.pj-dock-hot')];
+    const dockDot = document.querySelector('.pj-dock-dot');
+    let i = 0, plays = 0, visible = false, hovered = false;
+    let paused = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const progress = () => {
+      const v = videos[i], need = +slides[i].dataset.plays || 1;
+      if (v.duration) dots[i].style.setProperty('--p', Math.min(1, (plays + v.currentTime / v.duration) / need).toFixed(4));
+    };
+    let raf = 0;
+    const tick = () => { progress(); raf = videos[i].paused ? 0 : requestAnimationFrame(tick); };
+
+    // Only the active recording plays, and only while it can be seen
+    const sync = () => {
+      videos.forEach((v, k) => { if (k !== i && !v.paused) v.pause(); });
+      const v = videos[i];
+      if (visible && !paused && !document.hidden) {
+        v.play().then(() => { if (!raf) tick(); }, (err) => {
+          if (err.name === 'NotAllowedError') setPaused(true);   // autoplay blocked (e.g. iOS Low Power Mode)
+        });
+      } else v.pause();
+    };
+    const setPaused = (p) => {
+      paused = p;
+      win.classList.toggle('is-paused', p);
+      toggle.setAttribute('aria-label', p ? 'Play video' : 'Pause video');
+      toggle.dataset.cursorLabel = p ? 'play' : 'pause';
+      sync();
+    };
+
+    const go = (n) => {
+      i = (n + slides.length) % slides.length;
+      plays = 0;
+      slides.forEach((s, k) => s.classList.toggle('is-active', k === i));
+      dots.forEach((d, k) => { d.classList.toggle('on', k === i); d.style.setProperty('--p', 0); });
+      url.innerHTML = slides[i].dataset.url;
+      const h = hots.find((b) => +b.dataset.slide === i);   // running-app dot under the active icon
+      if (h) dockDot.style.left = (h.offsetLeft + h.offsetWidth / 2 - 3) + 'px';
+      videos[i].currentTime = 0;
+      sync();
+    };
+
+    videos.forEach((v, k) => v.addEventListener('ended', () => {
+      if (k !== i) return;
+      const need = +slides[k].dataset.plays || 1;
+      plays++;
+      if (plays < need || hovered) { plays = Math.min(plays, need - 1); v.currentTime = 0; sync(); }
+      else go(i + 1);
+    }));
+
+    setPaused(paused);
+    go(0);
+    toggle.addEventListener('click', () => setPaused(!paused));
+    win.querySelector('.pj-prev').addEventListener('click', () => go(i - 1));
+    win.querySelector('.pj-next').addEventListener('click', () => go(i + 1));
+    document.querySelectorAll('[data-slide]').forEach((b) => b.addEventListener('click', () => go(+b.dataset.slide)));
+    win.addEventListener('pointerenter', (e) => { if (e.pointerType === 'mouse') hovered = true; });
+    win.addEventListener('pointerleave', () => { hovered = false; });
+    new IntersectionObserver(([en]) => { visible = en.isIntersecting; sync(); }, { threshold: 0.4 }).observe(win);
+    document.addEventListener('visibilitychange', sync);
+  })();
+
+  // Nav links scroll to their sections (positions on the 1440px canvas, times current scale)
+  const SECTION_Y = { top: 0, about: 959, work: 1694, contact: 6910 };
+  document.querySelectorAll('[data-scroll-to]').forEach((el) => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      const s = document.documentElement.clientWidth / 1440;
+      window.scrollTo({ top: SECTION_Y[el.dataset.scrollTo] * s, behavior: 'smooth' });
+    });
+  });
+</script>
+</body>
+</html>
